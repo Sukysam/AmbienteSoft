@@ -20,7 +20,7 @@ if(galList) {
 
             let newImg = document.createElement("img");
             newImgWindow.appendChild(newImg);
-            newImg.setAttribute("src", "/img/product/" + setNewImgUrl);
+            newImg.setAttribute("src", "../../img/product/" + setNewImgUrl);
             newImg.setAttribute("id", "current-img"); 
             
             newImg.onload = function() {
@@ -76,7 +76,7 @@ function changeImg(changeDir) {
         }
     }
 
-    newImg.setAttribute("src", "/img/product/bed" + calcNewImg + ".png" );
+    newImg.setAttribute("src", "../../img/product/bed" + calcNewImg + ".png" );
     newImg.setAttribute("id", "current-img");
 
     getLatesOpededImg = calcNewImg;

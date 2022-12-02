@@ -57,7 +57,8 @@
   color: #1f6061;
   font-size: 18px;
 }
-* li, * p {
+* li,
+* p {
   font-weight: 200;
   font-size: 16px;
 }
@@ -213,8 +214,6 @@
 
 .bkg {
   background-color: #f6fff7;
-  max-width: 100%;
-  max-height: 100%;
   border-radius: 10px;
   opacity: 0.9;
 }
@@ -246,7 +245,8 @@
   margin-left: 0;
 }
 
-#hero .button .b1, .b1 {
+#hero .button .b1,
+.b1 {
   background-color: #213a3a;
   font-size: 20px;
   color: #e8fae1;
@@ -257,7 +257,8 @@
   border: none;
 }
 
-#hero .button .b1:hover, .b1:hover {
+#hero .button .b1:hover,
+.b1:hover {
   border: 2px solid #213a3a;
   background-color: transparent;
   color: #213a3a;
@@ -468,7 +469,9 @@
 
 /* About Page, product page */
 /* Aboou hero, product hero */
-#about_hero, #products, #contact_hero {
+#about_hero,
+#products,
+#contact_hero {
   margin-top: 75px;
   width: 100%;
   grid-column-start: 1;
@@ -492,7 +495,8 @@
   background-image: url(../img/Background/product-hero.png);
 }
 
-.about_hero, .temp_hero {
+.about_hero,
+.temp_hero {
   font-size: 50px;
   display: flex;
   justify-content: center;
@@ -503,7 +507,10 @@
   text-align: center;
 }
 
-.about_hero, .temp_hero, .contact_hero, h1 {
+.about_hero,
+.temp_hero,
+.contact_hero,
+h1 {
   color: #f6fff7;
   margin: auto 0;
   font-size: 45px;
@@ -751,7 +758,8 @@
   border-radius: 5px;
 }
 
-.btn button:hover, .email_sub button:hover {
+.btn button:hover,
+.email_sub button:hover {
   background-color: #3a4d4d;
   color: #f6fff7;
 }
@@ -1444,7 +1452,9 @@
     font-size: 20px;
   }
   /* Hero */
-  .hero .hero_text h1, h2, h3 {
+  .hero .hero_text h1,
+h2,
+h3 {
     font-size: 20px;
   }
   #hero .button {
@@ -1457,7 +1467,8 @@
   .hero .hero_text h2 {
     padding: 5px 0;
   }
-  #hero .button .b2, #hero .button .b1 {
+  #hero .button .b2,
+#hero .button .b1 {
     padding: 10px 0;
     width: 100%;
     margin: 0;
@@ -1478,7 +1489,8 @@
   .abt_text p {
     padding: 10px 0;
   }
-  #hero .button .b1, .b1 {
+  #hero .button .b1,
+.b1 {
     font-size: 16px;
     font-weight: 200;
   }

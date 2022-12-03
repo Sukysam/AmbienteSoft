@@ -112,7 +112,6 @@ $col-9: #213a3a;
 .header {
     position: fixed;
     width: 80%;
-    position: fixed;
     display: flex;
     justify-content: space-between;
 }
@@ -123,7 +122,7 @@ $col-9: #213a3a;
 }
 
 .logo img {
-    width: 250px;
+    width: 100%;
     margin: auto 0;
 }
 
@@ -203,7 +202,6 @@ $col-9: #213a3a;
 /* hero */
 
 #hero {
-    margin-top: 75px;
     width: 100%;
     grid-column-start: 1;
     grid-column-end: 4;
@@ -225,16 +223,19 @@ $col-9: #213a3a;
 }
 
 .hero .hero_text {
-    display: block;
     font-size: 24px;
     padding: 30px;
+    margin: auto auto;
 }
 
 .bkg {
+    display: flex;
     background-color: $col-1;
     border-radius: 10px;
     opacity: 0.9;
-    height: 80%;
+    height: 70%;
+    justify-items: center;
+    width: 100%;
 }
 
 .hero .hero_text h2 {
@@ -260,8 +261,8 @@ $col-9: #213a3a;
     border: none;
     cursor: pointer;
     margin: 0 10px;
-    width: 100%;
     margin-left: 0;
+    width: 100%;
 }
 
 #hero .button .b1,
@@ -274,6 +275,7 @@ $col-9: #213a3a;
     font-weight: 600;
     outline: none;
     border: none;
+    border: 2px solid $col-9;
 }
 
 #hero .button .b1:hover,
@@ -295,7 +297,6 @@ $col-9: #213a3a;
 
 #hero .button .b2:hover {
     background-color: $col-9;
-    font-size: 20px;
     color: #e8fae1ff;
     padding: 10px 20px;
     border-radius: 10px;
@@ -1425,6 +1426,10 @@ h1 {
     opacity: 0.8;
 }
 
+.list li a {
+    text-transform: capitalize;
+}
+
 
 /* media query */
 
@@ -1598,8 +1603,8 @@ h1 {
 
 @media (max-width: 750px) {
     .hamburger {
-        right: 20px;
-        top: 20px;
+        right: 17px;
+        top: 5px;
     }
     .logo img {
         width: 250px;
@@ -1732,9 +1737,6 @@ h1 {
     /* Hero */
     .hero {
         width: 90%;
-    }
-    .bkg {
-        padding-bottom: 50px;
     }
     /* about body */
     .about_body {

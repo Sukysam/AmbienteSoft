@@ -217,7 +217,7 @@
   opacity: 0.9;
   height: 70%;
   justify-items: center;
-  width: 100%;
+  width: 70%;
 }
 
 .hero .hero_text h2 {
@@ -321,7 +321,7 @@
 .min_about {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  width: 80%;
+  max-width: 1106px;
   margin: 0 auto;
 }
 
@@ -486,7 +486,7 @@
 }
 
 #about_hero {
-  background-image: url(../img/about/about-hero.png);
+  background-image: url(../img/about/min-about.webp);
 }
 
 #products {
@@ -528,7 +528,7 @@ h1 {
 }
 
 .about_body {
-  width: 80%;
+  max-width: 1106px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin: 0 auto;
@@ -550,7 +550,6 @@ h1 {
 .about_text p {
   padding: 10px 0;
   line-height: auto;
-  text-justify: auto;
   letter-spacing: 1px;
 }
 

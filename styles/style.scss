@@ -111,7 +111,7 @@ $col-9: #213a3a;
 
 .header {
     position: fixed;
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
 }
@@ -317,18 +317,72 @@ $col-9: #213a3a;
 }
 
 .fe_box {
-    width: 210px;
+    width: 200px;
+    height: 250px;
     text-align: center;
-    padding: 25px 15px;
+    padding-bottom: 5px;
     box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.06);
     border: 1px solid #adb4b1;
     border-radius: 4px;
-    margin: 15px 5px;
+    margin: 15px 10px;
+    display: block;
+}
+
+.fe_box .box-1 {
+    background-image: url(/img/png/bedroom.png);
+}
+
+.fe_box .box-2 {
+    background-image: url(/img/png/dining.png);
+}
+
+.fe_box .box-3 {
+    background-image: url(/img/png/pillows.png);
+}
+
+.fe_box .box-4 {
+    background-image: url(/img/png/sofa.png);
+}
+
+.fe_box .box-5 {
+    background-image: url(/img/png/curtains.png);
+}
+
+.fe_box .box-6 {
+    background-image: url(/img/png/fabrics.png);
+}
+
+.fe_box .box-7 {
+    background-image: url(/img/png/mirrors.png);
+}
+
+.fe_box .box-8 {
+    background-image: url(/img/png/rugs.png);
+}
+
+.fe_box .box-9 {
+    background-image: url(/img/png/lamps.png);
+}
+
+.fe_box .box-10 {
+    background-image: url(/img/png/contract.png);
+}
+
+.fe_box .images {
+    width: 100%;
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .fe_box img {
     width: 100%;
     margin-bottom: 10px;
+}
+
+.fe_box h4 {
+    padding-top: 5px;
 }
 
 .fe_box:hover {
@@ -358,7 +412,6 @@ $col-9: #213a3a;
 
 .abt_text {
     display: block;
-    margin: auto 0;
     padding-left: 20px;
 }
 
@@ -370,12 +423,20 @@ $col-9: #213a3a;
 /* Foot_Header */
 
 .newsletter {
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
-    border: 2 solid $col-1;
     margin: 0 auto;
-    padding-bottom: 30px;
+    padding: 8px 0;
+}
+
+.grid-new {
+    width: 100%;
+    background-color: $col-1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin: 0 auto;
+    background-color: $col-3;
 }
 
 .newsletter img {
@@ -395,6 +456,7 @@ $col-9: #213a3a;
     outline: none;
     border: none;
     width: 200px;
+    border: solid 2px $col-5;
     background-color: $col-3;
 }
 
@@ -569,7 +631,6 @@ h1 {
 
 .about_text {
     display: block;
-    margin: auto 0;
     padding-left: 20px;
 }
 
@@ -653,9 +714,56 @@ h1 {
     margin: 15px 10px;
 }
 
-#products_body .pro_body .product_items .product_box a img {
+.product_box .box-1 {
+    background-image: url(../img/png/bedroom.png);
+}
+
+.product_box .box-3 {
+    background-image: url(/img/png/dining.png);
+}
+
+.product_box .box-2 {
+    background-image: url(/img/png/pillows.png);
+}
+
+.product_box .box-4 {
+    background-image: url(/img/png/sofa.png);
+}
+
+.product_box .box-5 {
+    background-image: url(/img/png/curtains.png);
+}
+
+.product_box .box-6 {
+    background-image: url(/img/png/fabrics.png);
+}
+
+.product_box .box-7 {
+    background-image: url(/img/png/mirrors.png);
+}
+
+.product_box .box-8 {
+    background-image: url(/img/png/rugs.png);
+}
+
+.product_box .box-9 {
+    background-image: url(/img/png/lamps.png);
+}
+
+.product_box .box-10 {
+    background-image: url(/img/png/contract.png);
+}
+
+.product_box .images {
     width: 100%;
-    margin-bottom: 10px;
+    height: 85%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.product_box h4 {
+    padding-top: 15px;
 }
 
 #products_body .pro_body .product_items .product_box:hover {
@@ -1571,6 +1679,7 @@ h1 {
     .min_about {
         display: flex;
         flex-wrap: wrap;
+        padding: 0 50px;
     }
     .abt_text {
         display: block;

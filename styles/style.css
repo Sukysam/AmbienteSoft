@@ -581,7 +581,8 @@ h1 {
   font-weight: 400;
 }
 
-/* About body */
+/* About
+body */
 #about_body {
   display: flex;
   width: 100%;
@@ -634,19 +635,38 @@ h1 {
   justify-content: center;
 }
 
+.sp_box .images {
+  width: 100%;
+  height: 85%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sp-box1 {
+  background-image: url(/img/png/bedroom.png);
+}
+
+.sp-box2 {
+  background-image: url(/img/png/curtains.png);
+}
+
+.sp-box3 {
+  background-image: url(/img/png/dining.png);
+}
+
 #specialties .sp_box {
   width: 250px;
+  height: 300px;
   text-align: center;
-  padding: 25px 15px;
   box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.06);
   border: 1px solid #adb4b1;
   border-radius: 4px;
   margin: 15px 10px;
 }
 
-#specialties .sp_box img {
-  width: 100%;
-  margin-bottom: 10px;
+.sp_box h4 {
+  margin-top: 10px;
 }
 
 #specialties .sp_box:hover {
@@ -655,7 +675,8 @@ h1 {
   transition: 0.7s ease;
 }
 
-/* Product Body Items*/
+/* Product Body
+Items*/
 .product_hero h1 span {
   font-weight: 200;
   color: #7ce495;
@@ -940,7 +961,8 @@ h1 {
   height: 100%;
 }
 
-/* Gallery pages */
+/* Gallery
+pages */
 #gallery {
   margin-top: 75px;
   width: 100%;
@@ -1267,45 +1289,46 @@ h1 {
   background-image: url("../img/product/thumbs/mir10.png");
 }
 
-/* Office Furnitures Gallery Image*/
-.off1 {
-  background-image: url("../img/product/thumbs/off1.png");
+/* fabrics
+Furnitures Gallery Image*/
+.fab1 {
+  background-image: url("../img/product/thumbs/fab1.png");
 }
 
-.off2 {
-  background-image: url("../img/product/thumbs/off2.png");
+.fab2 {
+  background-image: url("../img/product/thumbs/fab2.png");
 }
 
-.off3 {
-  background-image: url("../img/product/thumbs/off3.png");
+.fab3 {
+  background-image: url("../img/product/thumbs/fab3.png");
 }
 
-.off4 {
-  background-image: url("../img/product/thumbs/off4.png");
+.fab4 {
+  background-image: url("../img/product/thumbs/fab4.png");
 }
 
-.off5 {
-  background-image: url("../img/product/thumbs/off5.png");
+.fab5 {
+  background-image: url("../img/product/thumbs/fab5.png");
 }
 
-.off6 {
-  background-image: url("../img/product/thumbs/off6.png");
+.fab6 {
+  background-image: url("../img/product/thumbs/fab6.png");
 }
 
-.off7 {
-  background-image: url("../img/product/thumbs/off7.png");
+.fab7 {
+  background-image: url("../img/product/thumbs/fab7.png");
 }
 
-.off8 {
-  background-image: url("../img/product/thumbs/off8.png");
+.fab8 {
+  background-image: url("../img/product/thumbs/fab8.png");
 }
 
-.off9 {
-  background-image: url("../img/product/thumbs/off9.png");
+.fab9 {
+  background-image: url("../img/product/thumbs/fab9.png");
 }
 
-.off10 {
-  background-image: url("../img/product/thumbs/ff10.png");
+.fab10 {
+  background-image: url("../img/product/thumbs/fab10.png");
 }
 
 /* Rugs Gallery Image*/
@@ -1686,7 +1709,8 @@ h3 {
   .contact_hero h1 {
     font-size: 35px;
   }
-  /* Contact */
+  /*
+  Contact */
   .mapouter {
     width: 100%;
     margin-bottom: 30px;
@@ -1791,7 +1815,8 @@ h3 {
     -o-object-fit: contain;
        object-fit: contain;
   }
-  /* Special */
+  /*
+  Special */
   #specialties .sp_box {
     width: 300px;
   }
@@ -1806,7 +1831,7 @@ h3 {
   .contact_hero h1 {
     font-size: 25px;
   }
-  /*  */
+  /* */
   .gallery {
     width: 95%;
   }

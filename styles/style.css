@@ -309,43 +309,43 @@
 }
 
 .fe_box .box-1 {
-  background-image: url(/img/png/bedroom.png);
+  background-image: url(../img/png/bedroom.png);
 }
 
 .fe_box .box-2 {
-  background-image: url(/img/png/dining.png);
+  background-image: url(../img/png/dining.png);
 }
 
 .fe_box .box-3 {
-  background-image: url(/img/png/pillows.png);
+  background-image: url(../img/png/pillows.png);
 }
 
 .fe_box .box-4 {
-  background-image: url(/img/png/sofa.png);
+  background-image: url(../img/png/sofa.png);
 }
 
 .fe_box .box-5 {
-  background-image: url(/img/png/curtains.png);
+  background-image: url(../img/png/curtains.png);
 }
 
 .fe_box .box-6 {
-  background-image: url(/img/png/fabrics.png);
+  background-image: url(../img/png/fabrics.png);
 }
 
 .fe_box .box-7 {
-  background-image: url(/img/png/mirrors.png);
+  background-image: url(../img/png/mirrors.png);
 }
 
 .fe_box .box-8 {
-  background-image: url(/img/png/rugs.png);
+  background-image: url(../img/png/rugs.png);
 }
 
 .fe_box .box-9 {
-  background-image: url(/img/png/lamps.png);
+  background-image: url(../img/png/lamps.png);
 }
 
 .fe_box .box-10 {
-  background-image: url(/img/png/contract.png);
+  background-image: url(../img/png/contract.png);
 }
 
 .fe_box .images {
@@ -644,15 +644,15 @@ body */
 }
 
 .sp-box1 {
-  background-image: url(/img/png/bedroom.png);
+  background-image: url(../img/png/bedroom.png);
 }
 
 .sp-box2 {
-  background-image: url(/img/png/curtains.png);
+  background-image: url(../img/png/curtains.png);
 }
 
 .sp-box3 {
-  background-image: url(/img/png/dining.png);
+  background-image: url(../img/png/dining.png);
 }
 
 #specialties .sp_box {
@@ -705,39 +705,39 @@ Items*/
 }
 
 .product_box .box-3 {
-  background-image: url(/img/png/dining.png);
+  background-image: url(../img/png/dining.png);
 }
 
 .product_box .box-2 {
-  background-image: url(/img/png/pillows.png);
+  background-image: url(../img/png/pillows.png);
 }
 
 .product_box .box-4 {
-  background-image: url(/img/png/sofa.png);
+  background-image: url(../img/png/sofa.png);
 }
 
 .product_box .box-5 {
-  background-image: url(/img/png/curtains.png);
+  background-image: url(../img/png/curtains.png);
 }
 
 .product_box .box-6 {
-  background-image: url(/img/png/fabrics.png);
+  background-image: url(../img/png/fabrics.png);
 }
 
 .product_box .box-7 {
-  background-image: url(/img/png/mirrors.png);
+  background-image: url(../img/png/mirrors.png);
 }
 
 .product_box .box-8 {
-  background-image: url(/img/png/rugs.png);
+  background-image: url(../img/png/rugs.png);
 }
 
 .product_box .box-9 {
-  background-image: url(/img/png/lamps.png);
+  background-image: url(../img/png/lamps.png);
 }
 
 .product_box .box-10 {
-  background-image: url(/img/png/contract.png);
+  background-image: url(../img/png/contract.png);
 }
 
 .product_box .images {

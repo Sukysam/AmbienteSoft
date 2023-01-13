@@ -461,7 +461,7 @@ $col-9: #213a3a;
 }
 
 .newsletter .email_sub label h4 {
-    color: $col-1;
+    color: rgb(32, 38, 35);
     font-size: 20px;
     padding-right: 20px;
 }
@@ -1039,6 +1039,8 @@ pages */
     height: 350px;
     margin: 5px 5px;
     cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 5px 5px 65px rgba(0, 0, 0, 0.06);
 }
 
 
@@ -1168,6 +1170,46 @@ pages */
 
 .cur10 {
     background-image: url("../img/product/thumbs/cur10.png");
+}
+
+.cur11 {
+    background-image: url("../img/product/thumbs/cur11.png");
+}
+
+.cur12 {
+    background-image: url("../img/product/thumbs/cur12.png");
+}
+
+.cur13 {
+    background-image: url("../img/product/thumbs/cur13.png");
+}
+
+.cur14 {
+    background-image: url("../img/product/thumbs/cur14.png");
+}
+
+.cur15 {
+    background-image: url("../img/product/thumbs/cur15.png");
+}
+
+.cur16 {
+    background-image: url("../img/product/thumbs/cur16.png");
+}
+
+.cur17 {
+    background-image: url("../img/product/thumbs/cur17.png");
+}
+
+.cur18 {
+    background-image: url("../img/product/thumbs/cur18.png");
+}
+
+.cur19 {
+    background-image: url("../img/product/thumbs/cur19.png");
+}
+
+.cur20 {
+    background-image: url("../img/product/thumbs/cur20.png");
 }
 
 
@@ -1612,7 +1654,7 @@ Furnitures Gallery Image*/
         background-color: $col-8;
         width: 100%;
         height: 100vh;
-        padding: 80px;
+        padding: 80px 20px;
         left: -100%;
         z-index: 888;
         overflow: scroll;
@@ -1815,13 +1857,15 @@ Contact */
         margin: 0;
         padding: 0;
     }
+    .gall_heading h3 {
+        font-size: 24px;
+    }
     /* footer */
+    .newsletter {
+        width: 90%;
+    }
     .newsletter .email_sub {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        justify-content: center;
-        padding-top: 20px;
+        display: block;
     }
     .newsletter .email_sub label h4 {
         text-align: center;
@@ -1834,7 +1878,6 @@ Contact */
     }
     .s_logo img {
         width: 250px;
-        padding: 20px;
     }
     .copyright a {
         display: flex;
@@ -1868,8 +1911,34 @@ Contact */
         font-size: 24px;
     }
     /* Hero */
+    #hero {
+        background-position: right;
+    }
     .hero {
-        width: 90%;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+    }
+    .bkg {
+        display: flex;
+        background-color: $col-1;
+        opacity: 0.9;
+        height: 0;
+        width: 100%;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .hero .hero_text {
+        font-size: 24px;
+        padding: 0;
+        margin: 0;
+    }
+    .about_hero,
+    .temp_hero,
+    .contact_hero,
+    h1 {
+        font-size: 30px;
+        font-weight: 400;
     }
     /* about body */
     .about_body {
@@ -1884,21 +1953,41 @@ Contact */
     .img {
         object-fit: contain;
     }
+    .gall_list {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 350px;
+        height: 320px;
+        cursor: pointer;
+        border-radius: 3px;
+        box-shadow: 5px 5px 65px rgba(0, 0, 0, 0.06);
+    }
+    #products_body .pro_body .product_items .product_box {
+        width: 350px;
+        height: 350px;
+    }
+    .fe_box {
+        width: 350px;
+        height: 350px;
+    }
+    .min_hero {
+        width: 90%;
+    }
+    .menu {
+        padding: 2px 0;
+    }
     /*
 Special */
     #specialties .sp_box {
-        width: 300px;
+        width: 350px;
     }
     .space_items {
         width: 90%;
     }
-    #specialties .sp_box h4 {
-        font-size: 25px;
-        font-weight: 300;
-    }
     /* Contact */
     .contact_hero h1 {
-        font-size: 25px;
+        font-size: 30px;
     }
     /* */
     .gallery {
